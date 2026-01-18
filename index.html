@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do-List</h2>
+            <div class="row">
+                <input type="time" id="time">
+                <input type="text" id="input-box" placeholder="produktif">
+                <button onclick="addTask()">
+                    <img src="tambah.png" width="37px" class="tambah">
+                </button>
+            </div>
+            <ul id="list-container"></ul>
+            <div class="task-info">
+                Total: <span id="total">0</span> |
+                Selesai: <span id="done">0</span> |
+                Belum: <span id="pending">0</span>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
